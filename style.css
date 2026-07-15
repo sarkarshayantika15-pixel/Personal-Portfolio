@@ -1,0 +1,89 @@
+/*Layout Setup */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: Poppins, sans-serif;
+}
+body{
+    background: #f5f5f5;
+    padding: 30px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 40% 65%;
+}
+.left{
+    background: #ead6d6;
+    padding: 20px;
+}
+.right{
+    padding: 60px;
+}
+.section{
+    margin-top: 35px;
+}
+.section h2{
+    background: white;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+.section p{
+    margin: 10px;
+    color: #555;
+    line-height: 1.8;
+}
+
+
+.name h1{
+    font-size: 90px;
+    font-family: 'Great Vibes', cursive;
+    color: #333;
+}
+.name hr{
+         margin-top: 25px;
+         border: 2px solid #ead6d6;
+}
+.My-Skills h1{
+    background-color: #ead6d6;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.My-Projects h1{
+    background-color: #ead6d6;
+    padding: 0 ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.My-Experience h1{
+    background-color: #ead6d6;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.dark-mode section,
+.dark-mode .left-column,
+.dark-mode .right-column{
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+#theme-btn{
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-left: 700px;
+    border: 1px solid #ccc;
+    position: fixed;
+}
+.dark{
+    background: #121212;
+    color: white;
+}
+.dark .container{
+    background: #1f1f1f;
+}
+.dark .left{
+    background: #2d2d2d;
+}
+
