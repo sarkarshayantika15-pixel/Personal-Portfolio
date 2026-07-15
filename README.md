@@ -9,6 +9,7 @@ It is a single page site featuring the following section :
  - Experiences.
 <br>
  Technologies Used :
+<br>
  - Semantic HTML
  - CSS Grid layout.
 <br>
